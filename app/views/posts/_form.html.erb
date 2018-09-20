@@ -1,0 +1,19 @@
+<%= form_for post do |f| %>
+
+  <div>
+    <%= f.label :Title %><br>
+    <%= f.text_field :title, id: :title %><br>
+  <div>
+
+  <br>
+
+  <div>
+    <%= f.label :Description %><br>
+    <%= f.text_field :description, id: :description %><br>
+  <div>
+
+  <br>
+
+  <%= f.submit submit %>
+
+<% end %>
